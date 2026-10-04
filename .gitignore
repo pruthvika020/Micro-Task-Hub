@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build/output
+dist/
+build/
+target/
+out/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Temporary files
+*.tmp
+*.temp
